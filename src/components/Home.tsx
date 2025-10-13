@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="pt-32 min-h-screen flex items-center bg-gray-900"
+      className="pt-14 min-h-screen flex items-center bg-gray-900"
     >
       <div className="container mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-12">
         
