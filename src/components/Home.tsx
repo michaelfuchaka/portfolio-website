@@ -4,12 +4,12 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="pt-14 min-h-screen flex items-center bg-gray-900"
+      className="pt-24 min-h-screen flex items-center bg-gray-900"
     >
       <div className="container mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-12">
         
         {/* === LEFT SIDE: TEXT CONTENT === */}
-        <div className="flex-1 space-y-6 text-center md:text-left">
+        <div className="flex-1 space-y-5 text-center md:text-left">
           {/* Welcome text */}
           <p className="text-sm text-gray-400 uppercase tracking-wider font-semibold">
             Hi, I’m
@@ -48,11 +48,11 @@ const Home = () => {
         </div>
 
         {/* === RIGHT SIDE: IMAGE === */}
-        <div className="flex-1 flex justify-center ">
+        <div className="flex-1 flex justify-center  items-center">
           <img
             src="/images/portfoli.png"
             alt="Michael Fuchaka"
-            className="w-64 md:w-80 lg:w-96 rounded-full border-4 border-blue-500 object-cover"
+            className="w-64 md:w-80 lg:w-96 rounded-full aspect-square border-4 border-blue-500 object-cover"
           />
         </div>
       </div>
@@ -60,4 +60,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home;
