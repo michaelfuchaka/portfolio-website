@@ -81,11 +81,10 @@ const About = () => {
       { icon: <SiTailwindcss className="text-sky-400" />, name: "Tailwind" },
       { icon: <FaPython className="text-yellow-400" />, name: "Python" },
       { icon: <SiFlask className="text-gray-300" />, name: "Flask" },
-      { icon: <FaNodeJs className="text-green-500" />, name: "Node.js" },
       { icon: <SiSqlalchemy className="text-purple-400" />, name: "SQLAlchemy" },
       { icon: <FaGithub className="text-gray-200" />, name: "Git / GitHub" }
     ].map((tech) => (
-      <div key={tech.name} className="bg-gray-800 p-6 rounded-lg hover:scale-105 hover:bg-gray-700 transition-transform">
+      <div key={tech.name} className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-transform">
         <div className="text-4xl mb-2">{tech.icon}</div>
         <div className="text-sm text-gray-300">{tech.name}</div>
       </div>
