@@ -17,7 +17,7 @@
 
         {/* Subtitle */}
           <p className='text-gray-400 text-center  mb-12  max-w-2xl  mx-auto' >
-            I&apos;m open to new opportunities and coolaborations. Feel free to
+            I&apos;m open to new opportunities and collaborations. Feel free to
           reach out.
           </p>
 
