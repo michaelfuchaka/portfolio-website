@@ -11,7 +11,7 @@ const Testimonials: React.FC = () => {
     },
     {
       id: 2,
-      name: "Mike",
+      name: "Muhammad Saggaf",
       role: "Team Member - My Bookie Project",
       text: "Michael consistently brought creative ideas and strong technical execution. His teamwork and leadership made a huge difference in our project's success.",
     },
