@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "PhysioAssist",
     description: "An AI-powered clinical decision support platform that helps physiotherapists streamline patient assessments, auto-generate SOAP notes, and create personalized treatment plans.",
-    technologies: ["React", "Flask", "SQLAlchemy", "Tailwind", "AI"],
+    technologies: ["Next.js", "React", "Flask", "PostgreSQL", "SQLAlchemy", "OpenAI API"],
     image: "/images/projects/physioassist.png",
     github: "https://github.com/michaelfuchaka/PhysioAssist",
     liveDemo: "https://physioassist.vercel.app",
