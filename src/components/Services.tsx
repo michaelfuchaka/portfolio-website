@@ -32,7 +32,7 @@ const Services: React.FC = () => {
     },
     {
       title: 'Responsive Design',
-      description: 'Mobile-first designs that work everywhere"',
+      description: 'Mobile-first designs that work everywhere',
       Icon: FaMobile,
     },
     {
@@ -46,21 +46,18 @@ const Services: React.FC = () => {
     <section id="services" className="py-24 bg-gray-900 min-h-screen">
       <div className="container mx-auto px-8 max-w-6xl">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-4">
-         What I Offer
+          What I Offer
         </h2>
-        
-            
-          <p className="text-gray-400 text-center mb-12 md:mb-16">
-             Turning ideas into reality with modern web technologies  
-            </p> 
 
+        <p className="text-gray-400 text-center mb-12 md:mb-16">
+          Turning ideas into reality with modern web technologies
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map(({ title, description, Icon }) => (
             <div
               key={title}
-             className="bg-gray-800 p-8 rounded-lg hover:bg-gray-700 transition-colors"
-
+              className="bg-gray-800 p-8 rounded-lg hover:bg-gray-700 transition-colors"
             >
               <div className="text-5xl text-blue-500 mb-4">
                 <Icon />
