@@ -32,12 +32,12 @@ const About = () => {
       <div className="container mx-auto px-8 max-w-5xl">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white text-center mb-12">Get To Know Me</h2>
         <div className="space-y-6 text-gray-400 text-base md:text-lg leading-relaxed max-w-4xl mx-auto">
-          <p>I began my journey in Mathematics and Computer Science in 2021, and in 2025 I made the decision to fully
-            pursue web development. Since then, I have been dedicated to mastering full-stack development and building
-            real-world projects that deliver meaningful digital experiences.</p>
-          <p>What drives me is transforming code into functional, well-designed websites that solve problems and enhance user experience. I view debugging
-            as a valuable part of the learning process, each challenge deepens my understanding and sharpens my skills. My goal is to continue refining my craft
-            and developing high-quality, efficient, and user-centered web applications.</p>
+          <p>Full‑stack web developer trained in Software Engineering at Moringa School, with 
+            hands‑on experience building production-ready applications using React, Next.js, 
+            Python, and Flask. Currently a Software Engineering Intern working on backend features 
+            for a POS platform. Strong foundation in problem‑solving, automation, and user‑centred 
+            design, with experience delivering AI‑powered and multilingual web applications.</p>
+          
         </div>
 
         {/* --- Quick Numbers --- */}
